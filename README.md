@@ -14,7 +14,11 @@ Clone this repository on your local computer and run the `docker-compose up -d`.
 ```shell
 git clone "https://github.com/AnassNzh/docker-compose-lamp-stack.git"
 cd docker-compose-lamp-stack/
+# For Unix
 cp sample.env .env
+# For Windows
+copy sample.env .env
+
 docker-compose up -d
 ```
 

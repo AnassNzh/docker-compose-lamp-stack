@@ -12,7 +12,7 @@ This is a basic LAMP stack environment built using Docker Compose. It consists f
 Clone this repository on your local computer and run the `docker-compose up -d`.
 
 ```shell
-git clone 'https://github.com/AnassNzh/docker-compose-lamp-stack.git'
+git clone "https://github.com/AnassNzh/docker-compose-lamp-stack.git"
 cd docker-compose-lamp-stack/
 cp sample.env .env
 docker-compose up -d
